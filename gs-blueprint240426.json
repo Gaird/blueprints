@@ -1,0 +1,25 @@
+{
+   "$schema": "https://playground.wordpress.net/blueprint-schema.json"
+}
+
+{
+    "siteOptions": {
+        "blogname": "Gaird's First Blueprint"
+    },
+    "steps": [
+        {
+            "step": "installTheme",
+            "themeZipFile": {
+                "resource": "wordpress.org/themes",
+                "slug": "pendant"
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org/plugins",
+                "slug": "nooz"
+            }
+        }
+    ]
+}
