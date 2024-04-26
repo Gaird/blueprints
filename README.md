@@ -1,2 +1,2 @@
 # blueprints
-WordPress Playground blueprints repo
+Initial setup repo for testing WordPress Playground blueprints
